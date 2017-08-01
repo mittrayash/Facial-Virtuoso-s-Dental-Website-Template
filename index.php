@@ -66,3 +66,22 @@
     </script>
 </head>
 
+<script>fbq('track', '<EVENT_NAME>');</script>
+<body style="font-family: 'Roboto', sans-serif; font-size: 14px;">
+<div id="wrapper">
+<style type="text/css">
+        .disabled {
+            background-color: #288dcd;
+            border-bottom: solid 2px color#fff !important;
+        }
+        .as{
+            color: #fff !important;
+        }
+        .drop_br {
+            border-bottom: solid 1px #fff;
+        }
+        .navbar-nav .dropdown-menu > li > a {
+            color: #222;
+            background-color: cadetblue;
+
+    </style>
