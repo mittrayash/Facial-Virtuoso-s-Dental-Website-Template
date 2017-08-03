@@ -70,18 +70,35 @@
 <body style="font-family: 'Roboto', sans-serif; font-size: 14px;">
 <div id="wrapper">
 <style type="text/css">
-        .disabled {
-            background-color: #288dcd;
-            border-bottom: solid 2px color#fff !important;
-        }
-        .as{
-            color: #fff !important;
-        }
-        .drop_br {
-            border-bottom: solid 1px #fff;
-        }
-        .navbar-nav .dropdown-menu > li > a {
-            color: #222;
-            background-color: cadetblue;
+    .disabled {
+        background-color: white;
+        border-bottom: solid 2px #fff !important;
+    }
+    .as{
+        color: #fff !important;
+    }
+    .drop_br {
+        border-bottom: solid 1px #fff;
+    }
+    .navbar-nav .dropdown-menu > li > a {
+        color: black !important;
+        background-color: white;
+    }
+    .navbar-nav .dropdown-menu > li > a:hover, .navbar-nav .dropdown-menu > li > a:focus {
+        color: black !important;
+        background-color: grey;
+    }
+    .navbar-nav .dropdown-menu > li > a:hover, .navbar-nav .dropdown-menu > li > a:focus {
+        color: black !important;
+        background-color: grey;
+    }
+    .ontop{
+        bg-lightgray border pb40
+        z-index: 99;
+    }
 
-    </style>
+
+    
+
+
+</style>
