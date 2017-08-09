@@ -114,3 +114,51 @@
     fbq('track', 'PageView');
 </script>
 
+<noscript><img height="1" width="1" style="display:none"
+               src="#"
+    /></noscript>
+</header>
+
+<div class="main">
+
+    <!--Strat Slider-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97375134-1', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+<!-- Google Code for Hair Transplant Conversion Page -->
+<script type="text/javascript" src="js/jquery.appear.js">
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 855809875;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "mm_1CJrUr3IQ076KmAM";
+    var google_remarketing_only = false;
+    /* ]]> */
