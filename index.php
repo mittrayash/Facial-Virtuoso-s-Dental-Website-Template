@@ -162,7 +162,17 @@
                     </div>
                 </div>
 
+				<div class="col-md-3 ontop even hvr-pulse-grow">
+                    <div class="item"><center><span class="glyphicon glyphicon-scissors"></span></center><br>
+                        <h4><center>Surgical Guides</center></h4>
 
+                    </div>
+                </div>
+                <div class="col-md-3 ontop odd hvr-pulse-grow">
+                    <div class="item"><center><span class="glyphicon glyphicon-bookmark"></span></center><br>
+                        <h4><center>Dental Implant Guide</center></h4>
+                    </div>
+                </div>
 
 </body>
 </html>
