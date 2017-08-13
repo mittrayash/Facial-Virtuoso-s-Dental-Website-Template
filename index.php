@@ -269,6 +269,24 @@
     </script>
 	
 	
+    <script type="text/javascript">
+
+        $('#state').on('change',function(){
+            var state_id=$(this).val();
+            //alert(state_id);
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{state_id:state_id},
+                success:function(data1){
+                    //var data=JSON.parse(data1);
+                    // alert(data1);
+					
+					
+					
+					
 </body>
 </html>
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
