@@ -284,7 +284,18 @@
                     //var data=JSON.parse(data1);
                     // alert(data1);
 					
-					
+					var options = '';
+                    var options1 = '';
+                    // alert(data); return false;
+                    // $('#state').children('option:not(:first)').remove();
+                    if(data1!="notfound"){
+                        options+='<option value="">Select City</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].city_id + '">' + data1[i].city_name + '</option>';
+                        }
+                        $("#city").html(options);
+                        options1 = '<option value="">Select City first</option>';
+                        $("#district").html(options1);
 					
 					
 </body>
