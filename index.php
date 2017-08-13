@@ -183,7 +183,92 @@
         </div>
     </div>
 
+ <script>
+        // When the browser is ready...
+        $(function() {
+            $("#Frmgroup").validate({
 
+
+                // Specify the validation rules
+                rules: {
+                    patient_name: {
+                        required: true
+                    },
+
+                    patient_email:{
+                        required:true,
+                        email:true
+                    },
+
+                    patient_contact:{
+                        required: true,
+                        minlength: 10,
+                        maxlength:11,
+                        number: true
+                    },
+                    state:{
+                        required:true
+                    },
+                    city:{
+                        required:true
+                    },
+                    area:{
+                        required:true
+                    },
+                    clinic_name:{
+                        required:true
+                    },
+                    docter:{
+                        required:true
+                    }
+
+                },
+
+                // Specify the validation error messages
+                messages:{
+                    patient_name: {
+                        required: "Please Enter  Name"
+                    },
+
+                    patient_email:{
+                        required: "Please Enter e-mail",
+                        email: "Please Enter a valid e-mail"
+                    },
+
+                    patient_contact: {
+                        required: "Please Enter mobile no.",
+                        minlength: "Please Enter 10 digit mobile number",
+                        maxlength: "Please Enter no more than 10 digit"
+                    },
+                    state:{
+                        required:"Select State"
+                    },
+                    city:{
+                        required:"Select City"
+                    },
+                    area:{
+                        required:"Select Area"
+                    },
+                    clinic_name:{
+                        required:"Select ClinicName"
+                    }
+
+                },
+                errorPlacement: function(error, element) {
+                    element.attr("placeholder",error.text());
+                },
+
+                submitHandler: function(form) {
+
+                    form.submit();
+                }
+            });
+
+        });
+
+    </script>
+	
+	
 </body>
 </html>
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
