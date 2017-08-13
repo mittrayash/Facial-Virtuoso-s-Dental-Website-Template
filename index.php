@@ -297,7 +297,21 @@
                         options1 = '<option value="">Select City first</option>';
                         $("#district").html(options1);
 					
-					
+					}else{
+                        options = '<option value="">Select country first</option>';
+                        $("#city").html(options);
+                        options1 = '<option value="">Select State first</option>';
+                        $("#district").html(options1);
+                        // $('#state option[value!="0"]').remove();
+                    }
+
+                }
+
+            });
+
+        });
+		
+		
 </body>
 </html>
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
