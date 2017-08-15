@@ -311,6 +311,35 @@
 
         });
 		
+		$('#city').on('change',function(){
+            var city_id=$(this).val();
+            //alert(city_id);
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{city_id:city_id},
+                success:function(data1){
+                    var options = '';
+                    if(data1!="notfound"){
+                        options+='<option value="">Select Area</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].area_id + '">' + data1[i].district_name + '</option>';
+                        }
+                        $("#area").html(options);
+
+                    }else{
+                        options = '<option value="">Data Not Found</option>';
+                        $("#area").html(options);
+                    }
+
+                }
+
+            });
+
+        });
+
 		
 </body>
 </html>
