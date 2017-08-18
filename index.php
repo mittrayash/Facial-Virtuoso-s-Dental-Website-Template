@@ -398,6 +398,11 @@
     </script>
 	
 	
+    <script src="http://www.facialvirtuoso.com/admin_assets/js/jquery.plugin.js"></script>
+    <script src="http://www.facialvirtuoso.com/admin_assets/js/jquery.datepick.js"></script>
+    <script src="http://www.facialvirtuoso.com/admin_assets/js/moment.js"></script>
+    <script src="http://www.facialvirtuoso.com/admin_assets/js/bootstrap-datetimepicker.js"></script>
+
 	
 </body>
 </html>
