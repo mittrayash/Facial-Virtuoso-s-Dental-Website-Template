@@ -406,6 +406,15 @@
 	
 </body>
 </html>
+<div class="main">
+    <div class="bg-lightgray border pb40">
+        <div class="container-fluid" style="margin-top: -10px !important;margin-top: -2px;" id="scrollMe">
+            <div class="col-md-12 text-center" style="padding-top: 20px;">
+                <h1 style=" font-style: italic;" id="animate1">"You think it, You have it!"</h1>
+                <h2 style=" font-style: italic;" id="animate2">"Medical Innovations are our passion!"</h2>
+            </div>
+        </div>
+		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
