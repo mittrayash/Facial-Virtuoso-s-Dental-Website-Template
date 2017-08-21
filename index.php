@@ -415,6 +415,20 @@
             </div>
         </div>
 		
+		<div class="" style="background-image:url('images/p1.jpg'); margin-top: 20px;">
+            <div style="background-color:rgba(0,0,0,.81);">
+                <div class="row">
+                    <h2 class="title text-center mb45 sliding-u-t-b" style="z-index: 1; color: white;">Products & Services</h2>
+                    <div class="col-md-12">
+                        <div class="team-carousel-sm owl-carousel closer-dots no-radius-dots">
+                            <div class="member col-sm-10">
+                                <div>
+                                    <figure>
+                                        <img src="images/2.jpg" class="memberImg" alt="Member Name">
+                                    </figure>
+									
+									
+		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
