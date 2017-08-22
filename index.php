@@ -428,7 +428,25 @@
                                     </figure>
 									
 									
-		
+		</div>
+                                <div class="col-sm-12" style="background-color: darkslategray;">
+                                    <a href="#"><h3 class="member-title" style="margin-top: 10px;    color: bisque; "><center>SURGICAL GUIDE TO EXECUTE PLAN</center> </h3></a>
+
+
+                                    <div class="col-sm-12" style="background-color: darkslategray; text-align: center; padding-bottom:5%; font-size: 17px;"><hr> <span class="text-center" style="color: white; text-align: justify">
+We can help you execute your plan exactly, accurately and safely with our innovative surgical guides.
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="member col-sm-10">
+                                <div>
+                                    <figure>
+                                        <img src="images/1.jpg" class="memberImg"  alt="Member Name">
+                                    </figure>
+									
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
