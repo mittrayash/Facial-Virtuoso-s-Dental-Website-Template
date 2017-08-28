@@ -515,7 +515,32 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </div>
 
                                 </div>
-                            </div>		
+                            </div>
+
+
+						<div class="member col-sm-10">
+                                <div>
+                                    <figure>
+                                        <img src="images/6.jpg" class="memberImg"  alt="Member Name">
+                                    </figure>
+                                    <!-- <div class="social-icons">
+                                        <label>Find me:</label>
+                                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="social-icon"><i class="fa fa-github"></i></a>
+                                        <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                                    </div> -->
+                                </div>
+                                <div class="col-sm-12" style="background-color: darkslategray;">
+                                    <a href="#"><h3 class="member-title" style="margin-top: 10px; color: bisque;"><center>ANY CUSTOMIZED SOLUTION FOR ORTHOPAEDIC, NEUROSURGERY, ENT, PLASTIC SURGERY, CARDIOVASCULAR SURGERY</center></h3></a>
+                                    <div class="col-sm-12" style="background-color: darkslategray; text-align: center; padding-bottom:5%; font-size: 17px;"><hr> <span class="text-center" style="color: white; text-align: justify">
+        Customized solutions for others surgical specialities are available and being developed futured. <guides class=""></guides>
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+	
 									
 									
 									
