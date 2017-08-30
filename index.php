@@ -584,7 +584,38 @@ We can help you execute your plan exactly, accurately and safely with our innova
                         </div>
                     </div>
                 </div>
-									
+					<div class="row pt50">
+
+                    <div class="col-md-6 text-center">
+                        <div class="col-md-12  col-sm-12">
+                            <div class="col-md-6  col-sm-12 text-center monial">
+                                <div class="blk-back1 ">
+                                    <h3 style="color:#fff;">Image</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6  col-sm-12 monial text-center">
+                                <div class="blk-back1 ">
+                                    <h3 style="color:#fff;">Image</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-left mg-top">
+                            <div class="col-md-12  col-sm-12 text-center monial" >
+                                <h3 class="pt30"><span style="color:#ed4b63">"</span> Lorem Ipsum Ida Ta Somain Lorem Ipsum Ida Ta Somain Lorem Ipsum Ida Ta Somain <span style="color:#ed4b63">"</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6  col-sm-12 monial">
+                        <div class="blk-back text-center " >
+                            <h3 style="color:#fff;">Video</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+		
 									
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
