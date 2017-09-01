@@ -615,6 +615,35 @@ We can help you execute your plan exactly, accurately and safely with our innova
         </section>
 
 
+		<div class="mb40"></div><!-- margin -->
+        <div class="video-box-section bg-image overlay-container pt60 pb60" style="background-image:url(images/office.jpg)">
+            <div class="overlay custom"></div><!-- overlay -->
+            <div class="container">
+                <header class="title-block text-white text-center">
+                    <h2 class="title mb10 text-white text-center">Introduction Video</h2>
+                    <p>See the introduction video and experience the our bussiness.</p>
+                </header>
+                <div class="row">
+
+                    <div class="col-md-7" style="background: #fff; padding:20px">
+                        <h2>Why Dental Company XYZ?</h2>
+                        <h3>Always Seeking Better Ways to perform</h3>
+                        <p class="lead smaller">Dental Company XYZ is a team of highly qualified doctors of the prestigious All India Institute of Medical Sciences (AIIMS), New Delhi, India. Being expert in versatile and dynamic area such as dentistry,we are dedicated to provide the highest quality of dental procedures and customized treatment.</p>
+                        <h3>Many Brains working together on your teeth</h3>
+                        <p class="lead smaller">Our approach combines a group of doctors working together to find the best way to approach your teeth as each person is unique. We bring together expert specialists from different speciality, the latest techniques and strong case study to provide the best care for you. It is our strong belief that patients opting for dental procedure should choose an expert team of dental doctors, because it reflects the performance of many medical providers before, during and after the procedure.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="video-box-section-wrapper">
+                            <div class="embed-responsive embed-responsive-16by9" style="height:431px">
+
+                                <iframe class="embed-responsive-item"  width="500" height="325" src="https://www.youtube.com/embed/gX0qnZC_CTE" alt="Video here" frameborder="0" allowfullscreen></iframe>
+                            </div><!-- End .embed-responsive -->
+                        </div><!-- End .video-box-wwrapper -->
+                    </div>
+                </div>
+            </div><!-- End .container -->
+        </div><!-- End .video-box-section -->
+		
 		
 									
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
