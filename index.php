@@ -644,6 +644,19 @@ We can help you execute your plan exactly, accurately and safely with our innova
             </div><!-- End .container -->
         </div><!-- End .video-box-section -->
 		
+        <div class="mb60"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <header class="title-block">
+                        <h2 class="title-border custom">Latest Blog</h2>
+                        <p>Check out our latest posts and keep updated now.</p>
+                    </header>
+                </div><!-- End .col-md-3 -->
+
+                <div class="col-md-9">
+                    <div class="owl-carousel latest-news-carousel-sm no-radius-dots">
+					
 		
 									
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
