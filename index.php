@@ -657,7 +657,25 @@ We can help you execute your plan exactly, accurately and safely with our innova
                 <div class="col-md-9">
                     <div class="owl-carousel latest-news-carousel-sm no-radius-dots">
 					
-		
+		<article class="entry entry-grid">
+                            <div>
+                                <figure>
+                                    <a href="#">
+                                        <img src="http://www.facialvirtuoso.com/uploads/featured_image_63.jpg" style="width: 100%;height: auto;" alt="Post image">
+                                    </a>
+                                    </a>
+                                </figure>
+								</div><!-- End .entry-media -->
+                            <h2 class="entry-title" style="margin-top: 15px;">
+                                <i class="fa fa-file-image-o"></i>
+                                <a href="#">
+                                    <a href="#">
+                                        How Technology is Transforming Dental Surgery Planning                                                  </a>
+
+                                </a>
+                            </h2>
+								
+								
 									
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
