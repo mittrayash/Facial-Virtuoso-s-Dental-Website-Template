@@ -676,7 +676,27 @@ We can help you execute your plan exactly, accurately and safely with our innova
                             </h2>
 								
 								
-									
+							<div class="entry-content">
+                                <p>
+                                <p><em>For the first time in India, patients can see dental surgery results instantly, prior to the actual operation.</em></p>
+
+                                <p>The advancements ...                                                </p>
+                                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+                            </div><!-- End .entry-content -->
+                        </article>
+
+						<article class="entry entry-grid">
+                            <div>
+                                <figure>
+                                    <a href="#">
+                                        <img src="http://www.facialvirtuoso.com/uploads/featured_image_36.jpg" style="width: 100%;height: auto;" alt="Post image">
+                                    </a>
+                                    </a>
+                                </figure>
+
+
+
+						
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
