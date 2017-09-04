@@ -694,6 +694,28 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </a>
                                 </figure>
 
+</div><!-- End .entry-media -->
+                            <h2 class="entry-title" style="margin-top: 15px;">
+                                <i class="fa fa-file-image-o"></i>
+                                <a href="#">
+                                    Dental Implant Missing teeth solutions for natural looking long lastin...
+                                </a>
+                            </h2>
+                            <div class="entry-content">
+                                <p>
+                                <p>Are you a suffering from tooth loss due to tooth decay or injury? Are you tired of conventional solutions to your lost teeth like bridges and dentu...                                                </p>
+                                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+                            </div><!-- End .entry-content -->
+                        </article>
+
+                        <article class="entry entry-grid">
+                            <div>
+                                <figure>
+                                    <a href="#">
+                                        <img src="http://www.facialvirtuoso.com/uploads/featured_image_86.jpg" style="width: 100%;height: auto;" alt="Post image">
+                                    </a>
+                                    </a>
+                                </figure>
 
 
 						
