@@ -717,6 +717,32 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </a>
                                 </figure>
 
+								</div><!-- End .entry-media -->
+                            <h2 class="entry-title" style="margin-top: 15px;">
+                                <i class="fa fa-file-image-o"></i>
+                                <a href="#">
+                                    <a href="#">
+                                        How to Wisely choose your Dental Doctor                                                  </a>
+
+                                </a>
+                            </h2>
+                            <div class="entry-content">
+                                <p>
+                                <p>With many different types of aesthetic doctors in practice today, it is important for you to make an informed decision when considering an elective...                                                </p>
+                                <a href="#">Read more<i class="fa fa-angle-right"></i></a>
+                            </div><!-- End .entry-content -->
+                        </article>
+
+
+
+                    </div><!-- latest-news-carousel-sm -->
+                </div><!-- End .col-md-9 -->
+
+            </div><!-- End .row -->
+        </div><!-- End .container -->
+
+
+
 
 						
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
