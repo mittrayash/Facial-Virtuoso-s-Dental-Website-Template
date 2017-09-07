@@ -755,6 +755,47 @@ We can help you execute your plan exactly, accurately and safely with our innova
 </div>
 </div>
 
+<script type="text/javascript">
+    function open_panel()
+    {
+        slideIt();
+        var a=document.getElementById("sidebar");
+        a.setAttribute("id","sidebar1");
+        a.setAttribute("onclick","close_panel()");
+    }
+
+    function slideIt()
+    {
+        var slidingDiv = document.getElementById("slider");
+        var stopPosition = 0;
+
+        if (parseInt(slidingDiv.style.right) < stopPosition )
+        {
+            slidingDiv.style.right = parseInt(slidingDiv.style.right) + 2 + "px";
+            setTimeout(slideIt, 1);
+        }
+    }
+
+    function close_panel(){
+        slideIn();
+        a=document.getElementById("sidebar1");
+        a.setAttribute("id","sidebar");
+        a.setAttribute("onclick","open_panel()");
+    }
+
+    function slideIn()
+    {
+        var slidingDiv = document.getElementById("slider");
+        var stopPosition = -342;
+
+        if (parseInt(slidingDiv.style.right) > stopPosition )
+        {
+            slidingDiv.style.right = parseInt(slidingDiv.style.right) - 2 + "px";
+            setTimeout(slideIn, 1);
+        }
+    }
+</script>
+
 
 						
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
