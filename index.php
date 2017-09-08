@@ -918,7 +918,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
         float: left;
     }
 </style>
-
+<?php require_once('footer.php');?>
 						
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
