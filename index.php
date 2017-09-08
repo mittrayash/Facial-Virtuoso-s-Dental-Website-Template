@@ -875,7 +875,48 @@ We can help you execute your plan exactly, accurately and safely with our innova
     }
 
 
-   
+    h3{
+        font-family: 'Roboto Slab', serif;
+    }
+
+    input[type=text]{
+        width:100%;
+    }
+
+    div#title{
+        position:absolute;
+        top:300px;
+        left:650px;
+    }
+
+    select{
+        padding:6px;
+        width:100%;
+        font-size:15px;
+        border-radius:2px;
+        border:3px solid #98d0f1;
+    }
+    button{
+        background:#2bc1f2;
+        border: none;
+        color: #fff;
+        width: 100%;
+        font-size: 22px;
+        font-weight: bolder;
+        padding: 8px 0 8px 0;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top:25px;
+    }
+    /*--------------------------------------
+            Advertisement div
+    ----------------------------------------*/
+    .formget{
+        width:300px;
+        margin-top: 65px;
+        margin-left: 57px;
+        float: left;
+    }
 </style>
 
 						
