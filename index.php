@@ -796,6 +796,87 @@ We can help you execute your plan exactly, accurately and safely with our innova
     }
 </script>
 
+<style type="text/css">
+    .Get{
+        position: fixed;
+        bottom: 30%;
+        right: 0px;
+        display: block;
+        cursor: pointer;
+        z-index: 999;
+        /*width: 36px;*/
+        /*height: 36px;*/
+        line-height: 20px;
+        font-size: 18px;
+        transition: all 0.4s;
+        text-align: center;
+        color: #fff;
+        padding: 8px;
+        background-color: #263a4e;
+    }
+    h5 {
+        color: #fff;
+    }
+    .abc a{
+        font-size: 23px;
+    }
+
+    .ui-datepicker-prev{
+        background-color: ##858585 !important;
+    }
+    .ui-datepicker-next{
+        background-color: ##858585 !important;
+    }
+
+
+    /*Form Css*/
+
+
+
+    #slider{
+        width:500px;
+        top:100px;
+        position:fixed;
+        z-index: 1000;
+    }
+
+    #header{
+        width:294px;
+        height:520px;
+        position:absolute;
+        right:0px;
+        border:1px solid #d8d8d8;
+        margin-left:40px;
+        padding:20px 40px;
+        border-radius:3px;
+        box-shadow: 0 0 8px gray;
+        background-color: #fff;
+    }
+
+
+    .navbar-nav > li > a {
+        position: relative;
+
+        font-weight: 600;
+        color: mediumaquamarine;
+    }
+    #sidebar{
+        position:absolute;
+        top:180px;
+        left:113px;
+        box-shadow: 0 0 8px gray;
+    }
+
+    #sidebar1{
+        position:absolute;
+        top:180px;
+        left:157px;
+        box-shadow: 0 0 8px gray;
+    }
+
+
+   
+</style>
 
 						
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
