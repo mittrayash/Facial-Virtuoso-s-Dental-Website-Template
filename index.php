@@ -1011,6 +1011,36 @@ We can help you execute your plan exactly, accurately and safely with our innova
 <script>
 
 
+    function DisableMonday(date){
+
+
+        var data=[];
+        $("input[type=checkbox]:checked").each(function(){
+
+            data.push($(this).val());
+        });
+        var newItems = $.map(data, function(i) {
+            return parseInt(i);
+        });
+
+        if ($.inArray(date.getDay(), newItems) > -1)
+        {
+            return [false, "", "Unavailable"];
+        }
+        else{
+            return [true, ""];
+        }
+    }
+
+    $(function() {
+        $( "#appointment_date" ).datepicker({
+            beforeShowDay: DisableMonday,
+            minDate: 0
+
+
+        });
+    });
+</script>
 
 
 			
