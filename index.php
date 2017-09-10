@@ -1149,6 +1149,56 @@ We can help you execute your plan exactly, accurately and safely with our innova
 
 </script>
 		
+		
+		
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $('#state').on('change',function(){
+            var state_id=$(this).val();
+            //alert(state_id);
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{state_id:state_id},
+                success:function(data1){
+                    //var data=JSON.parse(data1);
+                    //alert(data1);
+
+                    var options = '';
+                    var options1 = '';
+                    var options2='';
+                    // alert(data); return false;
+                    // $('#state').children('option:not(:first)').remove();
+                    if(data1!="notfound"){
+                        options+='<option value="">Select City</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].city_id + '">' + data1[i].city_name + '</option>';
+                        }
+                        $("#city").html(options);
+                        options1 = '<option value="">Select City first</option>';
+                        $("#area").html(options1);
+                        options2 = '<option value="">Select Area first</option>';
+                        $("#clinic_name").html(options2);
+                    }else{
+                        options = '<option value="">Select country first</option>';
+                        $("#city").html(options);
+                        options1 = '<option value="">Select State first</option>';
+                        $("#area").html(options1);
+                        // $('#state option[value!="0"]').remove();
+                    }
+
+                }
+
+            });
+
+        });
+
+		
+		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
