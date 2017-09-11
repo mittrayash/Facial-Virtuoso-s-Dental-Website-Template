@@ -1197,6 +1197,39 @@ We can help you execute your plan exactly, accurately and safely with our innova
 
         });
 
+
+        $('#city').on('change',function(){
+            var city_id=$(this).val();
+            //alert(city_id);
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{city_id:city_id},
+                success:function(data1){
+                    var options = '';
+                    var options1='';
+                    if(data1!="notfound"){
+                        options+='<option value="">Select Area</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].area_id + '">' + data1[i].district_name + '</option>';
+                        }
+                        $("#area").html(options);
+                        options1 = '<option value="">Select Area first</option>';
+                        $("#clinic_name").html(options1);
+
+                    }else{
+                        options = '<option value="">Data Not Found</option>';
+                        $("#area").html(options);
+                    }
+
+                }
+
+            });
+
+        });
+
 		
 		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
