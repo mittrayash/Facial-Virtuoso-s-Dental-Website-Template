@@ -1229,7 +1229,35 @@ We can help you execute your plan exactly, accurately and safely with our innova
             });
 
         });
+$('#area').on('change',function(){
+            var area_id=$(this).val();
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{area_id:area_id},
+                success:function(data1){
+                    var options = '';
+                    var options1='';
+                    if(data1!="notfound"){
+                        options+='<option value="">Select Clinic Name</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].id + '">' + data1[i].clinic_name + '</option>';
+                        }
+                        $("#clinic_name").html(options);
+                        //  options1 = '<option value="">Select Area first</option>';
+                        // $("#clinic_name").html(options1);
+                    }else{
+                        options = '<option value="">Data Not Found</option>';
+                        $("#clinic_name").html(options);
+                    }
 
+                }
+
+            });
+
+        });
 		
 		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
