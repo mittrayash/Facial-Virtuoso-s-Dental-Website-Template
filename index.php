@@ -1260,6 +1260,43 @@ $('#area').on('change',function(){
         });
 		
 		
+		
+
+        $('#clinic_name').on('change',function(){
+            var clinic_id=$(this).val();
+            var URL="#";
+            $.ajax({
+                url:URL,
+                type:"POST",
+                dataType:"json",
+                data:{clinic_id:clinic_id},
+                success:function(data1){
+                    var options = '';
+                    if(data1!="notfound"){
+                        options+='<option value="">Select Doctor Name</option>';
+                        for (var i = 0; i < data1.length; i++) {
+                            options += '<option value="' + data1[i].docter_id + '">' + data1[i].first_name+" "+data1[i].last_name+ '</option>';
+
+                        }
+                        $("#docter").html(options);
+                    }else{
+                        options = '<option value="">Data Not Found</option>';
+                        $("#docter").html(options);
+                    }
+
+                }
+
+            });
+
+        });
+
+
+    });
+
+
+</script>
+
+		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
