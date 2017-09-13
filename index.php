@@ -1295,6 +1295,25 @@ $('#area').on('change',function(){
 
 
 </script>
+<script type="text/javascript">
+    function get_ajax_days_list(clinic_id)
+    {
+        var formURL="#";
+
+        $.ajax({
+            type: "POST",
+            url: formURL,
+            data:{clinic_id:clinic_id},
+            success: function(data){
+                //alert(data);return false;
+
+                $('#doctor_drop_id').html(data);
+
+            },
+        });
+    }
+
+</script>
 
 		
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
