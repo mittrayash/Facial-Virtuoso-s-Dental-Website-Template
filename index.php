@@ -1315,7 +1315,44 @@ $('#area').on('change',function(){
 
 </script>
 
-		
+<script type="text/javascript" src="http://www.facialvirtuoso.com/admin_assets/bootstrap/js/jquery.validate.min.js"></script>
+<!-- jQuery 2.1.4 -->
+
+<!-- Bootstrap 3.3.5 -->
+<script src="http://www.facialvirtuoso.com/admin_assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/fastclick/fastclick.min.js"></script>
+<!-- AdminLTE App -->
+<script src="http://www.facialvirtuoso.com/admin_assets/dist/js/app.min.js"></script>
+<!-- Sparkline -->
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- ChartJS 1.0.1 -->
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/chartjs/Chart.min.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="http://www.facialvirtuoso.com/admin_assets/dist/js/pages/dashboard2.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="http://www.facialvirtuoso.com/admin_assets/dist/js/demo.js"></script>
+<script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/plugins/datatables/dataTables.bootstrap.min.js">
+</script>
+
+<script src="http://www.facialvirtuoso.com/admin_assets/js/jquery.plugin.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/js/jquery.datepick.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/js/moment.js"></script>
+<script src="http://www.facialvirtuoso.com/admin_assets/js/bootstrap-datetimepicker.js"></script>
+
+
+</body>
+</html>
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
+
+
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
 <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
