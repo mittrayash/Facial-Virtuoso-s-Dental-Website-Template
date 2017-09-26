@@ -70,95 +70,7 @@ require_once ('navbar.html');
 <script>fbq('track', '<EVENT_NAME>');</script>
 <body style="font-family: 'Roboto', sans-serif; font-size: 14px;">
 
-<!-- <header class="header header2 gray sticky-header">
-    <div class="header-inner">
-        <div class="container">
-            <a href="#" class="site-logo" title="Dental">
-                <img class="logo_slider" src="images/logo.jpg" alt="Simple Logo">
-                <span class="sr-only">Dental</span>
-            </a>
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
-                <span class="toggle-text">Menu</span>
-                <span class="toggle-wrapper">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="main-nav-container">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span 	glyphicon glyphicon-menu-down></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Meet The Team</a></li>
-                            <li><a href="#">Happy Clients</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Procedures &nbsp;<span class="	glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Aesthetic Procedure and Salons</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Blog Write Up</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Chin Job</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Facial Trauma</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Fillers</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Hair Tra</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Introduction</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Microderma Abrasion & Chemical Peels</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Nose Job</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Post Operative</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Salon Questionnare</a>
-                            </li>
-
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="#">Cases Studies</a>
-                    </li>
-                     <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#" style="background: #010101; border-radius: 5px;color:#fff;">Book an appointment</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header> -->
 <style type="text/css">
     .disabled {
         background-color: white;
@@ -432,38 +344,26 @@ require_once ('navbar.html');
     <div id="into" class="into-slider" id="myScroll">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 ontop odd hvr-pulse-grow" style="">
+                <div class="col-md-3 col-sm-3 ontop odd hvr-pulse-grow" style="">
                     <div class="item">
                         <center><span class="glyphicon glyphicon-send"></span></center><br>
                         <h4><center>3D Printed Models</center></h4>
 
                     </div>
                 </div>
-                <div class="col-md-3 ontop even hvr-pulse-grow">
+                <div class="col-md-3 col-sm-3 ontop even hvr-pulse-grow">
                     <div class="item"><center><span class="glyphicon glyphicon-scissors"></span></center><br>
                         <h4><center>Surgical Guides</center></h4>
 
                     </div>
                 </div>
-                <div class="col-md-3 ontop odd hvr-pulse-grow">
+                <div class="col-md-3 col-sm-3 ontop odd hvr-pulse-grow">
                     <div class="item"><center><span class="glyphicon glyphicon-bookmark"></span></center><br>
                         <h4><center>Dental Implant Guide</center></h4>
                     </div>
                 </div>
-             <!--   <div class="col-md-2 ontop even hvr-pulse-grow">
-                    <div class="item"><center><span class="glyphicon glyphicon-bookmark"></span></center><br>
-                        <h4><center>Medical Training Models</center></h4>
-                    </div>
-                </div>
-                <div class="col-md-2 ontop odd hvr-pulse-grow ">
-                    <div class="item"><center><span class="glyphicon glyphicon-pushpin"></span></center><br>
-                        <h4><center>Patient Specific Implants</center></h4>
-                    </div>
-                </div>
-
--->
-
-                <div class="col-md-3 ontop even hvr-pulse-grow">
+        
+                <div class="col-md-3 col-sm-3 ontop even hvr-pulse-grow">
                     <div class="item"><center><span class="glyphicon glyphicon-pushpin"></span></center><br>
                         <h4><center>Medical Innovations</center></h4>
                     </div>
@@ -728,7 +628,7 @@ require_once ('navbar.html');
 
 </body>
 </html>
-<!--  <div class="bg-lightgray border pb40"> -->
+
 <div class="main">
     <div class="bg-lightgray border pb40">
         <div class="container-fluid" style="margin-top: -10px !important;margin-top: -2px;" id="scrollMe">
@@ -737,200 +637,7 @@ require_once ('navbar.html');
                 <h2 style=" font-style: italic;" id="animate2">"Medical Innovations are our passion!"</h2>
             </div>
         </div>
-        <!--
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <!--<h1>What Do You Want ?</h1>
-                       <h1>We deals only in face and we are expert in it</h1>-->
-        <!--<div class="grid_row">
-            <div class="grid grid_col_2of2">
-                <div class="navRadial">
-                    <div class="navRadial_contain">
-                        <img src="http://www.facialvirtuoso.com/assetsimages/myimages/radial-nav-woman-face1.png" alt="" class="img img_full img_radialBG img-responsive">
-                        <ul class="navRadial_list">
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5">
-                                    <a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_cleft-lip-and-palate-surgery heading_navRadial-center">Oh.. My God!! jaws can be moved front or back</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/2.0.png" alt="Cleft Lip/Palate and Craniofacial Surgery" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left surgery1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Oh.. My God!! jaws can be moved front or back</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Jaw deformity is the condition wherein your maxilla i.e upper jaw,</p>
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="" class="heading_navRadial heading_navRadial_obstructive-sleep-apnea heading_navRadial-center">Acne & Pimples...
-                                        oh...no...Not again </a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.9.png" alt="Obstructive Sleep Apnea" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left apnea1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Acne & Pimples... oh...no...Not again </div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>These two are the most popular cosmetic procedures that you can avail of today.</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_head-neck-and-oral-cancer heading_navRadial-center">I Hate Wrinkles</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.8.png" alt="Head, Neck and Oral Pathology" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left cancer1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">I Hate Wrinkles</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>We will examine you and ask you to animate your face — frown, look up,</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_dental-and-soft-tissue-surgery heading_navRadial-center">Grow Your Hair back</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/tooltip-pointer-dental-and-soft-tissue-surgery.png" alt="Dental and Soft Tissue Surgery" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left surgery2">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Grow Your Hair back</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>We will examine you and ask you to animate your face — frown, look up, </p>
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_dental-implant-surgery heading_navRadial-center">Please...Shape <br>My Eyebrows.</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.7.png" alt="Dental Implant Surgery" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left surgery3">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Please...Shape My Eyebrows.</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Please...Shape My Eyebrows.</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_administration-of-anesthesia heading_navRadial-center">I want a Beautiful Nose..</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.6.png" alt="Administration of Anesthesia" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left anesthesia1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">I want a Beautiful Nose..</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Nose job, is a  procedure for reshaping/resizing or </p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_wisdom-teeth-management heading_navRadial-center">Age Gracefully</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.5.png" alt="Wisdom Teeth Management" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left management1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Age Gracefully</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Age Gracefully</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_treatment-of-facial-injury heading_navRadial-center">Doctor. I am Having pain in front of the ear.</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.4.png" alt="Treatment of Facial Injury" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left injury1">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Doctor. I am Having pain in front of the ear.</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Doctor. I am Having pain in front of the ear.</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_corrective-jaw-surgery heading_navRadial-center">Doc.. Do the best
-                                        Dental Implant You Have.</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.3.png" alt="Corrective Jaw Surgery" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left surgery4">
-                                    <a class="navRadial_tip-link" href="http://www.facialvirtuoso.com/index.php/Dental/dental_implant">
-                                        <div class="navRadial_tip_title">Doc... Do the best
-                                            Dental Implant You
-                                            Have.</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Do you have any missing teeth in your mouth which is not letting you carry</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_facial-cosmetic-surgery heading_navRadial-center">I am perfect... So Should
-                                        Be my chin...</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.2.png" alt="Facial Cosmetic Surgery" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left surgery5">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">I am perfect... So Should
-                                            Be my chin...</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>It is a procedures involving the manipulation of the chin.</p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                            <li class="navRadial_list_item">
-                                <h3 class="heading heading5"><a aria-hidden="true" href="#" class="heading_navRadial heading_navRadial_tmj heading_navRadial-center">Dimple So Cute</a></h3>
-                                <img src="http://www.facialvirtuoso.com/assets/images/myimages/1.1.png" alt="Facial Pain" class="img img_full img_radial_point">
-                                <div class="navRadial_tip navRadial_tip_left navRadial_tip_tmj">
-                                    <a class="navRadial_tip-link" href="#">
-                                        <div class="navRadial_tip_title">Dimple So Cute</div>
-                                        <div class="navRadial_tip_bd">
-                                            <p>Dimple over the cheeks enhance the facial beauty just like the famous celebrities who </p>
-
-                                        </div>
-                                        <span class="navRadial_tip-linkText">Click here to find out more.</span>
-                                    </a>
-                                </div>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>                <div class="mb40"></div><!-- margin -->
+        
         <div class="" style="background-image:url('images/p1.jpg'); margin-top: 20px;">
             <div style="background-color:rgba(0,0,0,.81);">
                 <div class="row">
@@ -942,13 +649,7 @@ require_once ('navbar.html');
                                     <figure>
                                         <img src="images/2.jpg" class="memberImg" alt="Member Name">
                                     </figure>
-                                    <!-- <div class="social-icons">
-                                        <label>Find me:</label>
-                                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
-                                    </div> -->
+                                    
                                 </div>
                                 <div class="col-sm-12" style="background-color: darkslategray;">
                                     <a href="#"><h3 class="member-title" style="margin-top: 10px;    color: bisque; "><center>SURGICAL GUIDE TO EXECUTE PLAN</center> </h3></a>
@@ -967,13 +668,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     <figure>
                                         <img src="images/1.jpg" class="memberImg"  alt="Member Name">
                                     </figure>
-                                    <!-- <div class="social-icons">
-                                        <label>Find me:</label>
-                                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
-                                    </div> -->
+                                    
                                 </div>
                                 <div class="col-sm-12" style="background-color: darkslategray;">
                                     <a href="#"><h3 class="member-title" style="margin-top: 10px;  color: bisque;"><center>3D PRINTED MODEL FOR SURGICAL PLANING</center></h3></a>
@@ -1035,13 +730,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     <figure>
                                         <img src="images/5.jpg" class="memberImg"  alt="Member Name">
                                     </figure>
-                                    <!-- <div class="social-icons">
-                                        <label>Find me:</label>
-                                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
-                                    </div> -->
+                                    
                                 </div>
                                 <div class="col-sm-12" style="background-color: darkslategray;">
                                     <a href="#"><h3 class="member-title" style="margin-top: 10px; color: bisque;"><center>‘ALL-ON-FOUR’AND ZYGOMATIC DENTAL IMPLANT DENTAL IMPLANT PLANNING AND SURGICAL GUIDE </center></h3></a>
@@ -1057,13 +746,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     <figure>
                                         <img src="images/6.jpg" class="memberImg"  alt="Member Name">
                                     </figure>
-                                    <!-- <div class="social-icons">
-                                        <label>Find me:</label>
-                                        <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-github"></i></a>
-                                        <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
-                                    </div> -->
+                                   
                                 </div>
                                 <div class="col-sm-12" style="background-color: darkslategray;">
                                     <a href="#"><h3 class="member-title" style="margin-top: 10px; color: bisque;"><center>ANY CUSTOMIZED SOLUTION FOR ORTHOPAEDIC, NEUROSURGERY, ENT, PLASTIC SURGERY, CARDIOVASCULAR SURGERY</center></h3></a>
@@ -1193,35 +876,6 @@ We can help you execute your plan exactly, accurately and safely with our innova
                 <div class="col-md-9">
                     <div class="owl-carousel latest-news-carousel-sm no-radius-dots">
 
-                        <!--
-                                        <article class="entry entry-grid">
-                                            <div>
-                                                <figure>
-                                                    <a href="#">
-                                                        <img src="http://www.facialvirtuoso.com/uploads/featured_image_98.png" style="width: 100%;height: auto;" alt="Post image">
-                                                    </a>
-                                                    </a>
-                                                </figure>
-                                                <!-- <div class="entry-meta">
-                                                    <span><i class="fa fa-calendar"></i>12-Jun-2017</span>
-                                                        <a href="#"><i class="fa fa-user"></i>
-                                                             Ankur Srivastava                                                </a>
-                                                </div>-->
-                        <!--            </div><!-- End .entry-media -->
-                        <!--        <h2 class="entry-title" style="margin-top: 15px;">
-                                    <i class="fa fa-file-image-o"></i>
-                                    <a href="#">
-                                        <a href="#">
-                                            5 Ways to Prevent Hair Loss                                                  </a>
-
-                                    </a>
-                                </h2>
-                                <div class="entry-content">
-                                    <p>
-                                    <p>The hairs on the front region of head are different from the hairs on the side and the back-scalp region. When we start getting older basically, ou...                                                </p>
-                                    <a href="#">Read more<i class="fa fa-angle-right"></i></a>
-                                </div><!-- End .entry-content -->
-                        <!-- </article>-->
 
 
                         <article class="entry entry-grid">
@@ -1232,11 +886,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </a>
                                     </a>
                                 </figure>
-                                <!-- <div class="entry-meta">
-                                    <span><i class="fa fa-calendar"></i>25-Apr-2017</span>
-                                        <a href="#"><i class="fa fa-user"></i>
-                                             Ankur Srivastava                                                </a>
-                                </div>-->
+                                
                             </div><!-- End .entry-media -->
                             <h2 class="entry-title" style="margin-top: 15px;">
                                 <i class="fa fa-file-image-o"></i>
@@ -1254,67 +904,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                 <a href="#">Read more<i class="fa fa-angle-right"></i></a>
                             </div><!-- End .entry-content -->
                         </article>
-                        <!--
-                                        <article class="entry entry-grid">
-                                            <div>
-                                                <figure>
-                                                    <a href="#">
-                                                        <img src="http://www.facialvirtuoso.com/uploads/featured_image_49.jpg" style="width: 100%;height: auto;" alt="Post image">
-                                                    </a>
-                                                    </a>
-                                                </figure>
-                                                <!-- <div class="entry-meta">
-                                                    <span><i class="fa fa-calendar"></i>25-Apr-2017</span>
-                                                        <a href="#"><i class="fa fa-user"></i>
-                                                             Ankur Srivastava                                                </a>
-                                                </div>-->
-                        <!--          </div><!-- End .entry-media -->
-                        <!--               <h2 class="entry-title" style="margin-top: 15px;">
-                                           <i class="fa fa-file-image-o"></i>
-                                           <a href="#">
-                                               <a href="#">
-                                                   Hair transplant Age backwards with your desired hairstyle again                                                  </a>
-
-                                           </a>
-                                       </h2>
-                                       <div class="entry-content">
-                                           <p>
-                                           <p>Do you look 40 at the age of 25? Do you miss your old hairstyles? Are you satisfied with your present compromised look?</p>
-
-                                           <p>These questions s...                                                </p>
-                                           <a href="#">Read more<i class="fa fa-angle-right"></i></a>
-                                       </div><!-- End .entry-content -->
-                        <!--        </article>
-
-                                <article class="entry entry-grid">
-                                    <div>
-                                        <figure>
-                                            <a href="#">
-                                                <img src="http://www.facialvirtuoso.com/uploads/featured_image_56.jpg" style="width: 100%;height: auto;" alt="Post image">
-                                            </a>
-                                            </a>
-                                        </figure>
-                                        <!-- <div class="entry-meta">
-                                            <span><i class="fa fa-calendar"></i>25-Apr-2017</span>
-                                                <a href="#"><i class="fa fa-user"></i>
-                                                     Ankur Srivastava                                                </a>
-                                        </div>-->
-                        <!--            </div><!-- End .entry-media -->
-                        <!--        <h2 class="entry-title" style="margin-top: 15px;">
-                                    <i class="fa fa-file-image-o"></i>
-                                    <a href="#">
-                                        <a href="#">
-                                            Dimple creation-For the irresistibly adorable smiles                                                  </a>
-
-                                    </a>
-                                </h2>
-                                <div class="entry-content">
-                                    <p>
-                                    <p>Do you wish you had that beautiful heart-melting smile with dimples which you do not naturally possess? Do you crave to add character and charm to ...                                                </p>
-                                    <a href="#">Read more<i class="fa fa-angle-right"></i></a>
-                                </div><!-- End .entry-content -->
-                        <!--     </article>-->
-
+                        
                         <article class="entry entry-grid">
                             <div>
                                 <figure>
@@ -1323,11 +913,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </a>
                                     </a>
                                 </figure>
-                                <!-- <div class="entry-meta">
-                                    <span><i class="fa fa-calendar"></i>25-Apr-2017</span>
-                                        <a href="#"><i class="fa fa-user"></i>
-                                             Ankur Srivastava                                                </a>
-                                </div>-->
+                               
                             </div><!-- End .entry-media -->
                             <h2 class="entry-title" style="margin-top: 15px;">
                                 <i class="fa fa-file-image-o"></i>
@@ -1350,11 +936,7 @@ We can help you execute your plan exactly, accurately and safely with our innova
                                     </a>
                                     </a>
                                 </figure>
-                                <!-- <div class="entry-meta">
-                                    <span><i class="fa fa-calendar"></i>25-Apr-2017</span>
-                                        <a href="#"><i class="fa fa-user"></i>
-                                             Ankur Srivastava                                                </a>
-                                </div>-->
+                                
                             </div><!-- End .entry-media -->
                             <h2 class="entry-title" style="margin-top: 15px;">
                                 <i class="fa fa-file-image-o"></i>
@@ -1380,211 +962,6 @@ We can help you execute your plan exactly, accurately and safely with our innova
         </div><!-- End .container -->
 
 
-
-        <!-- <article class="entry entry-grid">
-                     <div>
-                         <figure>
-                             <a href="#">
-                                 <img src="http://www.facialvirtuoso.com/uploads/featured_image_22_22.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                             </a>
-                             </a>
-                         </figure>
-                         <!-- <div class="entry-meta">
-                             <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                             <a href="#">
-                                 <i class="fa fa-user"></i>
-                                 Dr. Gaurav Jain                                                    </a>
-                         </div> -->
-        <!--      </div><!-- End .entry-media -->
-        <!--    <h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-                <a href="#">
-                    <a href="#">
-                        Facial Correction                                                            </a>
-
-                </a>
-            </h2>
-            <div class="entry-content">
-                <p>
-                <p>After an unfortunate accident during&nbsp;childhood, Suraj noticed that his face was not at all like his&nbsp;friends. He was constantly&nbsp;treat...                                                </p>
-                <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-            </div><!-- End .entry-content -->
-        <!--   </article>-->
-
-
-        <!--    <article class="entry entry-grid">
-                <div>
-                    <figure>
-                        <a href="#">
-                            <img src="http://www.facialvirtuoso.com/uploads/featured_image_21_54.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                        </a>
-                        </a>
-                    </figure>
-                    <!-- <div class="entry-meta">
-                        <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                        <a href="#">
-                            <i class="fa fa-user"></i>
-                            Dr. Gaurav Jain                                                    </a>
-                    </div> -->
-        <!--   </div><!-- End .entry-media -->
-        <!--    <h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-                <a href="#">
-                    <a href="#">
-                        Mouth closure due to betel nut chewing                                                            </a>
-
-                </a>
-            </h2>
-            <div class="entry-content">
-                <p>
-                <p>Manu couldn&rsquo;t open his mouth since&nbsp;8 years as he had the habit of gutkha and mava (betel nut) chewing. He had constant burning in his mo...                                                </p>
-                <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-            </div><!-- End .entry-content -->
-        <!--       </article>
-
-
-               <article class="entry entry-grid">
-                   <div>
-                       <figure>
-                           <a href="#">
-                               <img src="http://www.facialvirtuoso.com/uploads/featured_image_20_96.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                           </a>
-                           </a>
-                       </figure>
-                       <!-- <div class="entry-meta">
-                           <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                           <a href="#">
-                               <i class="fa fa-user"></i>
-                               Dr. Gaurav Jain                                                    </a>
-                       </div> -->
-        <!--           </div><!-- End .entry-media -->
-        <!--     <h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-                 <a href="#">
-                     <a href="#">
-                         Facial Makeover and Microdermabrasion                                                            </a>
-
-                 </a>
-             </h2>
-             <div class="entry-content">
-                 <p>
-                 <p>In the society where your facial looks determine&nbsp;the quality of your life partner, Kusum started hating herself because of something which&nbs...                                                </p>
-                 <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-             </div><!-- End .entry-content -->
-        <!--                    </article>
-
-
-                      <!--      <article class="entry entry-grid">
-                                <div>
-                                    <figure>
-                                        <a href="#">
-                                            <img src="http://www.facialvirtuoso.com/uploads/featured_image_19_40.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                                        </a>
-                                        </a>
-                                    </figure>
-                                    <!-- <div class="entry-meta">
-                                        <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                                        <a href="#">
-                                            <i class="fa fa-user"></i>
-                                            Dr. Gaurav Jain                                                    </a>
-                                    </div> -->
-        <!--   </div><!-- End .entry-media -->
-        <!--<h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-            <a href="#">
-                <a href="#">
-                    Facial Makeover                                                            </a>
-
-            </a>
-        </h2>
-        <div class="entry-content">
-            <p>
-            <p>Rhea,a teenage girl was constantly undergoing&nbsp;social and mental embarressment because of abnormal facial structures. She went&nbsp;through thi...                                                </p>
-            <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-        </div><!-- End .entry-content -->
-        <!--         </article>
-
-
-                 <article class="entry entry-grid">
-                     <div>
-                         <figure>
-                             <a href="#">
-                                 <img src="http://www.facialvirtuoso.com/uploads/featured_image_18_22.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                             </a>
-                             </a>
-                         </figure>
-                         <!-- <div class="entry-meta">
-                             <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                             <a href="#">
-                                 <i class="fa fa-user"></i>
-                                 Dr. Gaurav Jain                                                    </a>
-                         </div> -->
-        <!--              </div><!-- End .entry-media -->
-        <!--          <h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-                      <a href="#">
-                          <a href="#">
-                              Hair transplant                                                            </a>
-
-                      </a>
-                  </h2>
-                  <div class="entry-content">
-                      <p>
-                      <p>Rajesh was very low in confidence and was feeling dejected with life after facing alot of rejections in search of a life partner. In search of a be...                                                </p>
-                      <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-                  </div><!-- End .entry-content -->
-        <!--  </article>
-
-
-          <article class="entry entry-grid">
-              <div>
-                  <figure>
-                      <a href="#">
-                          <img src="http://www.facialvirtuoso.com/uploads/featured_image_17_91.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                      </a>
-                      </a>
-                  </figure>
-                  <!-- <div class="entry-meta">
-                      <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                      <a href="#">
-                          <i class="fa fa-user"></i>
-                          Dr. Gaurav Jain                                                    </a>
-                  </div> -->
-        <!--              </div><!-- End .entry-media -->
-        <!--          <h2 class="entry-title" style="margin-top: 15px;"><i class="fa fa-file-image-o"></i>
-                      <a href="#">
-                          <a href="#">
-                              Genioplasty/Chin Job                                                            </a>
-
-                      </a>
-                  </h2>
-                  <div class="entry-content">
-                      <p>
-                      <p>Iqbal came to us with a sagging chin. He wanted&nbsp;to have a &quot;manly appearance&quot; and strong appealing chin that provides perfect balance...                                                </p>
-                      <a href="#" class="readmore">Read more<i class="fa fa-angle-right"></i></a>
-                  </div><!-- End .entry-content -->
-        <!--     </article>
-
-
-             <article class="entry entry-grid">
-                 <div>
-                     <figure>
-                         <a href="#">
-                             <img src="http://www.facialvirtuoso.com/uploads/featured_image_16_72.jpg" style="width: 270px;height: 170px;" alt="Post image">
-                         </a>
-                         </a>
-                     </figure>
-                     <!-- <div class="entry-meta">
-                         <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                         <a href="#">
-                             <i class="fa fa-user"></i>
-
-                     <!-- <div class="entry-meta">
-                         <span><i class="fa fa-calendar"></i>27-Apr-2017</span>
-                         <a href="#">
-                             <i class="fa fa-user"></i>
-                             Dr. Gaurav Jain                                                    </a>
-
-
-
-
-
-         </div><!-- latest-news-carousel-sm -->
     </div><!-- End .col-md-9 -->
 </div><!-- End .row -->
 </div><!-- End .container -->
@@ -1592,113 +969,13 @@ We can help you execute your plan exactly, accurately and safely with our innova
 
 </div>
 </div>
-<!--
-<div id="slider" style="right:-342px;">
-    <div id="sidebar" onmouseover="open_panel()" style="margin-left: 18px;">
-        <img src="http://www.facialvirtuoso.com/assets/images/myimages/book.jpg"/>
-    </div>
 
-    <div id="header">
-        <form action="#" method="post" name="Frmgroup" id="Frmgroup" >
-            <h2>Book an Appointment</h2>
-            <input type="text" name="patient_name" id="patient_name" class="form-control" placeholder="Nfame" />
-            <input type="number" name="patient_contact" id="patient_contact" class="form-control" placeholder="Phone No" />
-            <input type="text" name="patient_email" id="patient_email" class="form-control" placeholder="Email" />
-            <input type="number" name="patient_age" id="patient_age" class="form-control" placeholder="Age" />
-
-            <label> <input type="radio" name="gender" value="male" class="form-group">Male &nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <label><input type="radio" name="gender" value="female" class="form-group">Female</label>
-
-            <select id="state" name="state" class="form-control select2" data-placeholder="Select State">
-                <option value="">Select State</option>
-                <option value="11">
-                    Haryana              </option>
-                <option value="14">
-                    Gujarat              </option>
-                <option value="15">
-                    Maharashtra              </option>
-                <option value="36">
-                    Uttar Pradesh-West              </option>
-                <option value="37">
-                    Delhi              </option>
-
-            </select>
-
-            <select id="city" name="city" class="form-control select2" data-placeholder="Select city">
-                <option value="">Select City</option>
-            </select>
-            <select id="area" name="area" class="form-control select2"   data-placeholder="Select Area">
-                <option value="">Select Area</option>
-            </select>
-
-            <select id="clinic_name" name="clinic_name" class="form-control select2" data-placeholder="Select Clinic name" onChange="get_ajax_days_list(this.value)">
-                <option value="">Select Clinic Name</option>
-            </select>
-
-            <input type="text" class="form-control" name="appointment_date" id="appointment_date" placeholder="Appointment Date">
-
-            <!-- <select id="docter" name="docter" class="form-control select2" data-placeholder="Select Clinic name">
-                  <option value="">Select Doctor Name</option>
-            </select> -->
 
 </form>
 </div>
 </div>
 </div>
 
-<!-- <script>
-
-function DisableMonday(date){
-
-
-   var data=[];
-  $("input[type=checkbox]:checked").each(function(){
-
-    data.push($(this).val());
-});
-    var newItems = $.map(data, function(i) {
-      return parseInt(i);
-    });
-
-   if ($.inArray(date.getDay(), newItems) > -1)
-   {
-            return [false, "", "Unavailable"];
-    }
-    else{
-       return [true, ""];
-    }
-    }
-
- $(function() {
- $( "#appointment_date" ).datepicker({
-   beforeShowDay: DisableMonday,
-   minDate: 0
-
-
- });
- });
- </script>
- <script type="text/javascript">
-            function get_ajax_days_list(clinic_id)
-            {
-            var formURL="#";
-
-                $.ajax({
-                    type: "POST",
-                    url: formURL,
-                    data:{clinic_id:clinic_id},
-                    success: function(data){
-                        //alert(data);return false;
-
-                          $('#doctor_drop_id').html(data);
-
-                },
-});
-            }
-
-
-
-</script> -->
 <script type="text/javascript">
     function open_panel()
     {
@@ -2291,16 +1568,7 @@ function DisableMonday(date){
 </body>
 </html>
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=18484045"></script>
-<!-- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-97375134-1', 'auto');
-  ga('send', 'pageview');
-
-</script> -->
 
 <!-- Google Code for Hair Transplant Conversion Page -->
 <script type="text/javascript" src="js/jquery.appear.js">
@@ -2312,15 +1580,7 @@ function DisableMonday(date){
     var google_conversion_color = "ffffff";
     var google_conversion_label = "mm_1CJrUr3IQ076KmAM";
     var google_remarketing_only = false;
-    /* ]]> */
-
-
-
-
-
-    // $("#animate1").hide().show("slide", {direction: "left"}, 2000);
-
-
+    
 
 </script>
 <script type="text/javascript">
